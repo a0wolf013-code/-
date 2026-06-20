@@ -76,7 +76,7 @@ def main():
             歷史裁罰總額 = 基地資料["裁罰"]
             本日工序清單 = 基地資料["工序"]
         with col_select2:
-            st.markdown(f"<div style='background-color:#e3f2fd; padding:15px; border-radius:6px; color:#0d47a1; margin-top:25px;'><b>🛰️ 系統提示：</b>已載入 <b>{選擇的工地名稱}</b> 的歷史合規基因與進度網圖特徵。</div>", unsafe_allow_html=True)
+            st.info(f"🛰️ 系統提示：已載入 **{選擇的工地名稱}** 的歷史合規基因與進度網圖特徵。")
 
     # =========================================================================
     # ➕ 分頁二：全新基地資料接收窗口
